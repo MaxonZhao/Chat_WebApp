@@ -1,0 +1,51 @@
+body {
+    width:100%;
+}
+#app-view {
+    width:80%;
+}
+  
+div.message {
+    /* border:10px solid grey */
+    background-color: grey;
+    color: white;
+    text-align: left;
+    height: 50px;
+    margin-right: 30%;
+    width: 80%;
+}
+div.my-message {
+    background-color: blue;
+    color: gold;
+    text-align: left;
+    height: 50px;
+    margin-left: 30px;
+    width: 80%;
+}
+
+@media only screen and (max-width: 1024px) {
+    #app-view {
+      width:90%;
+    }
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    #app-view {
+      width:100%;
+    }
+}
+
+
+
+li.menu-item :hover {
+    color: gold;
+    background-color: rgb(139, 117, 117);
+}
+
+.message-list {
+    overflow-y: scroll;
+    min-height: 0px; 
+    max-height: 300px;
+}
